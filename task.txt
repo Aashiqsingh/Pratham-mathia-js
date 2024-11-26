@@ -1,0 +1,12 @@
+link -- images -- logo 
+
+flipkart
+amazon
+uber
+facebook 
+ola 
+instagram
+snapchat
+lenskart
+zomato
+swiggy
