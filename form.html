@@ -6,24 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-
-    <fieldset>
-        <legend align="center">Personal detail</legend>
     
-    <form action="thankyou.html" method="post">
 
+    <form action="thankyou.html" method="post">
         <table>
             <tr>
                 <td>Name</td>
-                <td><input type="text" placeholder="Enter name" name="name" id=""></td>
+                <td><input type="text" name="name" id="" placeholder="Enter name"></td>
             </tr>
             <tr>
-                <td>Last Name</td>
-                <td><input type="text" name="surname" id="" require></td>
-            </tr>
-            <tr>
-                <td>Mobile</td>
-                <td><input type="tel" name="Mobile" id=""></td>
+                <td>Surname</td>
+                <td><input type="text" name="sname" id="" require></td>
             </tr>
             <tr>
                 <td>Email</td>
@@ -34,59 +27,58 @@
                 <td><input type="password" name="" id=""></td>
             </tr>
             <tr>
-                <td>Address</td>
-                <td><textarea placeholder="Enter Address" name="Add"  id=""></textarea></td>
+                <td>Mobile</td>
+                <td><input type="tel" name="ph" id=""></td>
+            </tr>
+            <tr>
+                <td>Adddress</td>
+                <td><textarea name="" cols="20" rows="5" id=""></textarea></td>
             </tr>
             <tr>
                 <td>Gender</td>
-                <td>Male <input type="radio" name="gender" value="Male" id=""> Female <input type="radio" value="Female" name="gender" id=""></td>
+                <td>Male <input type="radio" name="gender" value="male" id="">Female <input type="radio" value="female" name="gender" id=""></td>
             </tr>
             <tr>
                 <td>Hobbies</td>
-                <td>Cricket <input type="checkbox" value="cricket" name="hobby" id=""> singing <input type="checkbox" value="singing" name="hobby" id=""></td>
+                <td>Cricket <input type="checkbox" name="hobby" value="cricket" id="">Singing <input type="checkbox" name="hobby" value="singing" id=""></td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <!-- <td><input type="date" name="" id=""></td> -->
+                 <!-- <td><input type="datetime-local" name="" id=""></td> -->
+                  <!-- <td><input type="month" name="" id=""></td> -->
+                   <!-- <td><input type="week" name="" id=""></td> -->
+                    <td><input type="time" name="" id=""></td>
             </tr>
             <tr>
                 <td>City</td>
                 <td><select name="city" id="">
                     <optgroup label="Gujarat">
-                        <option value="Ahmedabad">Ahmedabad</option>
-                        <option value="Surat">Surat</option>
-                        <option value="Vadodara">Vadodara</option>
-                        <option value="rajkot">Rajkot</option>
-                        <option value="Gandhinagar">Gandhinagar</option>
-                    </optgroup>
-                    <optgroup label="Maharstra" disabled>
-                        <option value="mumbai">Mumbai</option>
-                        <option value="Pune">Pune</option>
-                        <option value="Nashik">Nashik</option>
-                        <option value="Nagpur">Nagpur</option>
-                    </optgroup>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Vadodara">Vadodara</option>
+                    <option value="Rajkot">Rajkot</option>
+                </optgroup>
+                <optgroup label="maharstra" disabled>
+                    <option value="mumbai">mumbai</option>
+                    <option value="pune">pune</option>
+                    <option value="nashik">nashik</option>
+                </optgroup>
                 </select></td>
             </tr>
             <tr>
-                <td>DOB</td>
-                <!-- <td><input type="date" name="" id=""></td> -->
-                <!-- <td><input type="datetime-local" name="" id=""></td> -->
-                <!-- <td><input type="month" name="" id=""></td> -->
-                <!-- <td><input type="week" name="" id=""></td> -->
-                <td><input type="time" name="" id=""></td>
-
-            </tr>
-            <tr>
-                <td>Upload File</td>
+                <td>Attach file</td>
                 <td><input type="file" name="" id=""></td>
             </tr>
             <tr>
-                <td><input type="submit" value="Submit" name="" id=""></td>
+                <td><input type="submit" value="submit" name="" id=""></td>
+                <td><input type="reset" name="" id=""></td>
+                <td><button>Click me</button></td>
             </tr>
         </table>
     </form>
 
-</fieldset>
-
-
-
-
-
 </body>
 </html>
+
+<!-- ame=Aashiq&sname=singh&ph=06354717524&city=Surat -->
